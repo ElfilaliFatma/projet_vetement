@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    
+    <style>
+      .navbar-gradient {
+          background: linear-gradient(90deg, rgb(212, 222, 229) 0%, rgb(222, 204, 143) 100%);
+      }
+      html {
+    scroll-behavior: smooth;
+}
+.card {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .card:hover  {
+            transform: scale(1.05);
+            opacity: 0.8;
+        }
+
+        .container {
+            display: flex;
+            margin-left: 100px;
+            margin-top: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .quality, .premium-quality {
+            margin-right: 50px; 
+            width: 300px; 
+        }
+        .m {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+       
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(214, 201, 149, 0.1); 
+    backdrop-filter: blur(10px); 
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+
+body {
+    padding-top: 100px; 
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.6); 
+    backdrop-filter: blur(0px); 
+}
+
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: none; 
+}
+
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+   
+}
+.nav-item a:hover{
+color: rgb(255, 0, 0);
+}
+.icon {
+      font-size: 24px;
+      color: rgba(0, 0, 0, 0.603);
+    }
+
+  </style>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="font-size: 25px;" href="#">Eclipse</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 530px; font-size: 20px;">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="women.html">Women</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="men.html">Men</a>
+          
+        </li>
+    
+       
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card" style="width: 100%;">
+            <img src="https://thumbs.dreamstime.com/b/gorgeous-female-brunette-model-white-clothes-portrait-posing-fashion-studio-147311462.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">WOMEN</h5>
+            
+              <a href="women.html" class="btn btn-primary" style="background-color: white; color: black; border-color: black; margin-top: 20px;width: 500px; margin-left: 60px;">Shop now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card" style="width: 100%;">
+              <img style="height: 425px;" src="https://as2.ftcdn.net/v2/jpg/02/67/78/75/1000_F_267787569_kNH4xzBrWdRBNqxgOyNtTRqAO8dA9Pvj.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">MEN</h5>
+                  <a href="men.html" class="btn btn-primary" style="background-color: white; color: black; border-color: black; margin-top: 20px; width: 500px; margin-left: 60px;">Shop now</a>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <section id="aboutus" class="mt-5">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-md-8 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <h5 class="card-title text-center">About Us!</h5>
+                          <p class="card-text">
+                              Welcome to Eclipse! We are a proud Tunisian clothing brand established in 2024. Our goal is to offer stylish and high-quality apparel that celebrates both Tunisian craftsmanship and contemporary fashion. At Eclipse, we are dedicated to bringing you clothing that combines elegance with comfort, ensuring you look and feel your best. Thank you for choosing us and joining us on this fashionable journey!
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card" style="border: none; margin-top: -195px; background: none;">
+                     
+                    <img src="C:\Users\fafaf\OneDrive\Bureau\projet vetement\imgs\e lipse (4).png" class="card-img-top rounded-circle" alt="...">
+                      <div class="card-body">
+                         
+                        
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</head>
+
+<body>
+
+<h5 style="margin-top: -150px; margin-left: 660px;">Why client choose us?</h5>
+<div class="container" style="margin-left: 90px;">
+  <div class="quality" style="margin-top: 50px;">
+      <strong>Trendsetting Designs:</strong>
+      <div class="m">Our collections are curated to</div>
+      <div class="m">stay ahead of the fashion curve</div>
+      <div class="m">blending timeless elegance with</div>
+      <div class="m">the latest trends.</div>
+  </div>
+  <div class="premium-quality" style="margin-top: 50px; margin-left: 870px;">
+      <strong>Premium Quality:</strong>
+      <div class="m">We use high-quality materials and expert craftsmanship to ensure our garments are both luxurious and long-lasting.</div>
+  </div>
+</div>
+
+<div class="container mt-4" style="margin-top: 30px; ">
+  <div class="row" style="margin-top: 90px; ">
+    <div class="col-md-6 mb-4">
+      <div class="card" style="width: 250px; margin-left: 380px; border-radius: 20px; border-color: chocolate;">
+      
+        <div class="card-body">
+          <h5 class="card-title">20K</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Total Clients</h6>
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <div class="card" style="width: 250px; margin-left: 120px; border-radius: 20px; border-color: chocolate;">
+      
+        <div class="card-body">
+          <h5 class="card-title">98%</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Customer Satisfaction</h6>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container mt-4"></div>
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="card" style="width: 250px; margin-left: 489px; border-radius: 20px; border-color: chocolate;">
+      
+        <div class="card-body">
+          <h5 class="card-title">5+</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Years of Experience</h6>
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 mb-4">
+      <div class="card" style="width: 250px; margin-left: -15px; border-radius: 20px; border-color: chocolate;">
+      
+        <div class="card-body">
+          <h5 class="card-title">150+</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Products Sold</h6>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-dark text-white mt-4 py-4">
+  <div class="container">
+      <div class="row">
+      
+          <div class="col-md-4 mb-3">
+              <h5>About Us</h5>
+              <p>We are Eclipse, a leading clothing brand based in Tunisia, committed to providing fashionable and high-quality apparel. Established in 2024, our mission is to deliver style and comfort with every piece we create.</p>
+          </div>
+      
+          <div class="col-md-4 mb-3">
+              <h5>Contact Us</h5>
+              <p>
+                  Phone: (116) 97938956<br>
+                  Email: info@eclipse.com<br>
+                  Address:  Tunis, Le bardo
+              </p>
+          </div>
+      
+          <div class="col-md-4 mb-3">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Home</a></li>
+                  <li><a href="#aboutus" class="text-white">About Us</a></li>
+                  <li><a href="#" class="text-white">Men</a></li>
+                  <li><a href="#" class="text-white">Women</a></li>
+             
+              </ul>
+          </div>
+      </div>
+      <div class="row">
+     
+          <div class="col-12 text-center mb-3">
+              <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+      </div>
+ 
+  
+  </div>
+  <div class="text-center py-3">
+      <small>&copy; 2024 Eclipse. All rights reserved.</small>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
